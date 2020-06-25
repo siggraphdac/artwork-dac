@@ -63,13 +63,25 @@ header h1{
   /* background-color: #171717; */
 }
 
-/* .two-col-works .work-content .work-header:hover {
-  background-color: #8224e3;
+.two-col-works .work-content .work-header p{
+  font-size: .8em;
+  margin-bottom: 0em;
+  /* font-weight: bolder; */
 }
 
-.two-col-works .work-content .work-header h5:hover {
-  color: #fff;
+/* .two-col-works .work-content .work-header:hover {
+  background-color: #8224e3;
 } */
+
+a.work-element:hover{
+  /* color: #fff; */
+  color: #171717;
+}
+
+a.work-element:hover{
+  /* color: #fff; */
+  background-color: rgba(130,36,227,0.5) !important;
+}
 
 @media(max-width: 991px) {
   .two-col-works .work-content .work-header {
