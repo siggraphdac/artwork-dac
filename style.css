@@ -1,0 +1,92 @@
+/*
+ Theme Name:   Artwork DAC
+ Description:  Artwork-lite Child Theme
+ Author:       Derick Ostrenko
+ Author URI:   http://frederickostrenko.com
+ Template:     artwork-lite
+ Version:      1.0.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  artworkchild
+*/
+
+div.entry-header{
+  padding: 10px;
+  background-color: #171717;
+}
+
+h2.entry-title.h4{
+  margin-bottom: 0;
+}
+
+/* header.entry-header{
+  background-color: #171717;
+} */
+
+header h1{
+  font-weight: bolder;
+  /* color: white; */
+}
+
+/* .gallery-item{
+  text-align: left !important;
+} */
+
+.entry-content .gallery{
+  margin: 0 !important;
+}
+
+.entry-thumbnail img{
+  max-height: 500px;
+  object-fit: none;
+}
+
+/* .header-logo img{
+  position: fixed !important;
+} */
+
+.two-col-works .work-element {
+  width: 25%;
+}
+
+.two-col-works .work-content {
+  opacity: 1;
+}
+
+.posts-related .two-col-works .work-content,.two-col-works .work-content {
+  bottom: 0em;
+  padding-bottom: 1em;
+}
+
+.two-col-works .work-content .work-header {
+  padding: 0.75em;
+  /* background-color: #171717; */
+}
+
+/* .two-col-works .work-content .work-header:hover {
+  background-color: #8224e3;
+}
+
+.two-col-works .work-content .work-header h5:hover {
+  color: #fff;
+} */
+
+@media(max-width: 991px) {
+  .two-col-works .work-content .work-header {
+    padding: 0.2em; 
+  }
+
+  .two-col-works .work-content .work-header h5 {
+    font-size: 0.8em;
+  }
+}
+
+@media(max-width: 767px) {
+  .two-col-works .work-element {
+      width: 100%;
+  }
+
+  .two-col-works .work-content .work-header h5 {
+    font-size: 1.125em;
+  }
+}
