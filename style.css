@@ -15,6 +15,18 @@ div.entry-header{
   background-color: #171717;
 }
 
+footer-title h2{
+  color: #707070;
+}
+
+#header > div > span {
+  background-color: #fff;
+}
+
+#header > div > span > i {
+  color: rgba(0, 0, 0, 0.8);
+}
+
 h2.entry-title.h4{
   margin-bottom: 0;
 }
@@ -24,7 +36,7 @@ h2.entry-title.h4{
 } */
 
 header h1{
-  font-weight: bolder;
+  /* font-weight: bolder; */
   /* color: white; */
 }
 
@@ -78,9 +90,12 @@ a.work-element:hover{
   color: #171717;
 }
 
-a.work-element:hover{
-  /* color: #fff; */
-  background-color: rgba(130,36,227,0.5) !important;
+.wp-block-button__link:visited {
+  background-color: #171717;
+}
+
+.wp-block-button__link:hover {
+  background-color: #8224e3;
 }
 
 @media(max-width: 991px) {
