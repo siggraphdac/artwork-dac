@@ -30,6 +30,7 @@ endif;
 
 global $mp_artwork;
 $mp_artwork_paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+// $mp_artwork_paged = (get_query_var('paged')) ? get_query_var('paged') : 0;
 
 $mp_artwork_args = array(
     // 'post_type' => mp_artwork_plugin_get_post_type_slug(),
@@ -79,7 +80,7 @@ if ($mp_artwork_works->have_posts()) {
                 <a href="<?php echo $mp_artwork_post_link;  ?>" class="work-element" title="<? echo esc_html(get_the_title()); ?>" <?php echo !empty($mp_artwork_post_link_target) ? 'target="'.$mp_artwork_post_link_target.'"' : ''; ?><?php echo $mp_artwork_work_bg_colorstyle; ?>>
                     <div class="work-wrapper work-wrapper-bg <?php echo $mp_artwork_work_bg; ?> <?php echo $mp_artwork_class_page; ?>" style="background-image: url(<?php echo $mp_artwork_feat_image_url[0]; ?>)">
                     </div>
-                <div class="work-content"><div class="work-header"><h5><?php echo $works->display('artwork_title');?></h5><p><?php echo $works->display('artist_name');?></p></div></div>  
+                <div class="work-content"><div class="work-header"><h5><?php echo $works->display('artwork_title');?></h5><p><?php echo $works->display('artist_names.post_title');?></p></div></div>
                      
                 <?php // the_title('<div class="work-content"><div class="work-header"><h5>', '</h5></div></div>'); ?>
             </a>

@@ -11,7 +11,7 @@
  * @since Artwork 1.0
  */
 ?>
-<aside style="display:none;" id="sidebar">
+<aside id="sidebar">
     <div class="widget-area">
         <?php if (is_active_sidebar('sidebar-1')) : ?>
             <?php dynamic_sidebar('sidebar-1'); ?>
@@ -24,11 +24,11 @@
             $instance = array();
             the_widget('WP_Widget_Search', $instance, $args);           
             
-            the_widget('WP_Widget_Recent_Posts', $instance, $args);            
+            //the_widget('WP_Widget_Recent_Posts', $instance, $args);            
             
-            the_widget('WP_Widget_Tag_Cloud', $instance, $args);
+            //the_widget('WP_Widget_Tag_Cloud', $instance, $args);
                        
-            the_widget('WP_Widget_Meta', $instance, $args);
+            //the_widget('WP_Widget_Meta', $instance, $args);
             ?> 
         <?php endif; ?>
     </div><!-- .widget-area -->

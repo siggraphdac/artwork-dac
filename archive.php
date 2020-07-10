@@ -21,6 +21,7 @@ get_header();?>
 <div class="container main-container">
     <div class="row clearfix">
         <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1 class="page-title"><?php single_term_title()?></h1>
             <?php if (have_posts()) : ?>             
                 <?php /* The loop */ ?>
                 <?php while (have_posts()) : the_post(); ?>
