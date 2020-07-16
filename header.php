@@ -47,12 +47,7 @@ if ( $mp_artwork_menu_behavior === 'always' ) {
 
 							<!-- added -->
 
-						<div class="site-description">
-							<!-- <a class="home-link" href="<?php echo esc_url( home_url('/') ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"> -->
-							<!-- <h1 class="site-title<?php if ( ! get_bloginfo( 'description' ) ) : ?> empty-tagline<?php endif; ?>"><?php bloginfo( 'name' ); ?></h1> -->
-							<!-- <p class="site-tagline"><?php if ( get_bloginfo( 'description' ) ) : ?><?php bloginfo( 'description' ); ?><?php endif; ?></p> -->
-							</a>
-						</div>
+
 
 						</div>
 					<?php endif; ?>

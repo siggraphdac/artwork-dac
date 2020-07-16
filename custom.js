@@ -5,7 +5,7 @@ var originalImageSrcSet = document.getElementsByClassName("custom-logo")[0].srcs
 
 window.onload = function () {
   if (window.innerWidth < 590) {
-      image.setAttribute("src", "https://via.placeholder.com/150");
+      image.setAttribute("src", "https://digital-power.siggraph.org/wp-content/uploads/2020/07/digital_power_sq_logo.png");
       image.setAttribute("srcset", "");
   } else {
       image.setAttribute("src", originalImageSrc);
@@ -15,7 +15,7 @@ window.onload = function () {
 
 window.onresize = function () {
   if (window.innerWidth < 590) {
-      image.setAttribute("src", "https://via.placeholder.com/150");
+      image.setAttribute("src", "https://digital-power.siggraph.org/wp-content/uploads/2020/07/digital_power_sq_logo.png");
       image.setAttribute("srcset", "");
   } else {
       image.setAttribute("src", originalImageSrc);

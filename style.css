@@ -116,6 +116,10 @@ h2.entry-title{
   line-height: 94px;
 }
 
+.top-header .top-header-content{
+  min-height: 94px;
+}
+
 .sf-menu>li:first-child{
   border-top-color: black;
   border-bottom-color: black;
@@ -129,6 +133,10 @@ h2.entry-title{
 .sf-menu>li a:hover{
   color: white;
   /* background-color: #5B3791; */
+}
+
+.placed_tagline{
+  padding: 25px;
 }
 
 .sf-menu ul a{

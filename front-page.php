@@ -42,7 +42,23 @@ $mp_artwork_works = new WP_Query($mp_artwork_args);
 
 if ($mp_artwork_works->have_posts()) {
     ?>
+    
+    <div class="row placed_tagline">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 col-sm-offset-2 col-md-offset-3 col-lg-offset-3">
+            <p>Digital Power: Activism, Advocacy and the Influence of Women Online. Digital artists, storytellers, designers, gamers, film/video makers and other visionary digital content providers in an exhibition that inspires, empowers, and supports women.</p>
+            <div class="wp-block-buttons">
+                <div class="wp-block-button">
+	                <a class="wp-block-button__link" href="https://digital-power.siggraph.org/introduction/" rel="noreferrer noopener">Exhibition Introduction</a>
+                </div>
+                <div class="wp-block-button">
+	                <a class="wp-block-button__link" href="https://digital-power.siggraph.org/curators-statement/" rel="noreferrer noopener">Curator's Statement</a>
+	            </div>
+            </div>
+        </div>
+    </div>
+    
     <div class="two-col-works">
+
         <?php
         while ($mp_artwork_works->have_posts()) {
             $mp_artwork_works->the_post();
