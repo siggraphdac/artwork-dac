@@ -52,6 +52,9 @@ if ($mp_artwork_works->have_posts()) {
                 </div>
                 <div class="wp-block-button">
 	                <a class="wp-block-button__link" href="https://digital-power.siggraph.org/curators-statement/" rel="noreferrer noopener">Curator's Statement</a>
+                </div>
+                <div class="wp-block-button">
+	                <a class="wp-block-button__link" href="https://digital-power.siggraph.org/index/" rel="noreferrer noopener">Artists</a>
 	            </div>
             </div>
         </div>
