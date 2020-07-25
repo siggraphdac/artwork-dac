@@ -44,8 +44,8 @@ if ($mp_artwork_works->have_posts()) {
     ?>
     
     <div class="row placed_tagline">
-        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 col-sm-offset-2 col-md-offset-3 col-lg-offset-3">
-            <p>Digital Power: Activism, Advocacy and the Influence of Women Online. Digital artists, storytellers, designers, gamers, film/video makers and other visionary digital content providers in an exhibition that inspires, empowers, and supports women.</p>
+        <div class="col-xs-10 col-sm-8 col-md-8 col-lg-6 col-xs-offset-1 col-sm-offset-2 col-md-offset-2 col-lg-offset-3">
+            <p>An exhibition that inspires, empowers, and supports women, Digital Power: Activism, Advocacy and the Influence of Women Online is a juried selection of  visionary digital content providers: artists, storytellers, researchers, performers, historians, designers, gamers, film/video makers, communicators and writers.</p>
             <div class="wp-block-buttons">
                 <div class="wp-block-button">
 	                <a class="wp-block-button__link" href="https://digital-power.siggraph.org/introduction/" rel="noreferrer noopener">Exhibition Introduction</a>
